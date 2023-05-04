@@ -1,5 +1,5 @@
 import 'package:delivery/pages/home/home.dart';
-import 'package:delivery/pages/promocoes/promocoes.dart';
+import 'package:delivery/pages/promotions/promotions.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const Home(),
-        '/promocoes': (context) => const Promocoes(),
+        '/promocoes': (context) => const Promotions(),
       },
     );
   }
